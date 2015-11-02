@@ -10,7 +10,7 @@ import ru.rem.server.session.packets.AbstractQuery;
 import ru.rem.server.session.packets.AbstractResponse;
 import ru.rem.server.session.packets.data.PacketAction;
 import ru.rem.server.session.packets.data.PacketStatus;
-import ru.rem.server.session.server.SimpleServer;
+import ru.rem.server.server.SimpleServer;
 
 
 public class UpdatingFileList extends AbstractResponse {

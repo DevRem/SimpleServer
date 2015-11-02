@@ -1,4 +1,4 @@
-package ru.rem.server.session.server;
+package ru.rem.server.server;
 
 import java.net.SocketAddress;
 import java.util.HashMap;

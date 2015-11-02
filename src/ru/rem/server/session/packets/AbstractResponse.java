@@ -3,7 +3,7 @@ package ru.rem.server.session.packets;
 import java.nio.ByteBuffer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import ru.rem.server.session.server.SimpleServer;
+import ru.rem.server.server.SimpleServer;
 
 public abstract class AbstractResponse extends AbstractPacket{
     

@@ -1,4 +1,4 @@
-package ru.rem.server.session.server;
+package ru.rem.server.server;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
