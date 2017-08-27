@@ -65,7 +65,7 @@ public class SimpleServer implements Runnable{
     
     private void processAccept(SelectionKey key) throws IOException{
         ServerSocketChannel server = (ServerSocketChannel) key.channel();
-        // Если два клиента с одного ип продумать
+
         SocketChannel sc = server.accept();
         sc.configureBlocking(false);
         SelectionKey skClient = sc.register(selector, SelectionKey.OP_WRITE);
